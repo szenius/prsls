@@ -3,6 +3,8 @@
 This project was created with Serverless framework. Namely
 
 ```
+npm init -y
+npm install --save-dev serverless
 npx sls create --template aws-nodejs
 ```
 
