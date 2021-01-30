@@ -1,5 +1,5 @@
 {
-  "name": "prsls-hello-world",
+  "name": "hello-world",
   "version": "1.0.0",
   "description": "PRSLS Course's Hello World",
   "main": "index.js",

@@ -1,4 +1,4 @@
-service: prsls-hello-world
+service: hello-world
 frameworkVersion: "2"
 
 provider:
@@ -9,7 +9,7 @@ provider:
 functions:
   version:
     handler: src/handlers/version.version
-    name: prsls-version-${opt:stage, 'dev'}
+    name: version-${opt:stage, 'dev'}
     description: Service version
     events:
       - http:
@@ -17,7 +17,7 @@ functions:
           method: get
   healthz:
     handler: src/handlers/healthz.healthz
-    name: prsls-healthz-${opt:stage, 'dev'}
+    name: healthz-${opt:stage, 'dev'}
     description: Service health
     events:
       - http:
