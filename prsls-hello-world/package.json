@@ -1,0 +1,14 @@
+{
+  "name": "prsls-hello-world",
+  "version": "1.0.0",
+  "description": "PRSLS Course's Hello World",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^2.21.1"
+  }
+}
