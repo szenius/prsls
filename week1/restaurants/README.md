@@ -8,13 +8,15 @@ npm install --save-dev serverless
 npx sls create --template aws-nodejs
 ```
 
-`.env` was added by
-
-```
-npx sls export-env
-```
-
 ## Development
+
+To set up
+
+```
+npm install
+npx sls export-env          // export environment variables from serverless to .env
+node seedRestaurants.js     // seed data to dynamodb
+```
 
 To deploy
 
