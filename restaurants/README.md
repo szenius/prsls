@@ -28,6 +28,12 @@ To see the main page that was deployed, use the root URL, i.e. `https://<some id
 
 As IAM auth was added, `/restaurants` path should return 403 Forbidden.
 
+To run integration tests against actual dynamodb (so this requires seeding)
+
+```
+npm run test
+```
+
 To delete
 
 ```
